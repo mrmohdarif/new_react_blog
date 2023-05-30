@@ -1,9 +1,10 @@
 import React, { useContext } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { store1 } from "../../NavigationBar";
 
 export function TikTok(){
    const [data22]=useContext(store1)
+   const back=useNavigate()
     return(
         <>
          <div className="papaya_main_div">
@@ -20,6 +21,7 @@ export function TikTok(){
             )
           })}
           </div>
+          <button className='backbtn' onClick={()=>{back(-1)}}>Back</button>
         </>
     )
 }

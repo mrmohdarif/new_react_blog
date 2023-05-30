@@ -43,6 +43,7 @@ import Puri from "./component/Food/component1/Puri";
 import Pavbhaji from "./component/Food/component2/Pavbhaji";
 import Masaladhosa from "./component/Food/component2/Masaladhosa";
 import Roghanjosh from "./component/Food/component2/Roghanjosh";
+import Footer from "./Footer";
 
 export const store1 = createContext();
 export function NavigationBar() {
@@ -821,7 +822,7 @@ export function NavigationBar() {
         "Besides being a tasty fruit, papaya also has several benefits. This tropical treasure offers a wealth of health advantages. While papayas rank among the tastiest and most useful fruits, they offer much more than just a sweet flavour and attractive appearance. Eating papaya has a number of health advantages, including the capacity to aid in weight loss, lessen oxidative stress, treat diabetes, combat ageing, and promote wound healing.                                                                                Second only to the banana in terms of popularity, papayas are among the most common fruits in tropical and subtropical areas. The benefits of papaya fruit come from its high concentration of antioxidants, enzymes, vitamins C, E, and A, dietary fibre, and minerals including magnesium and potassium. Eating papaya empty stomach might provide even more benefits. Continue reading as we discuss these benefits.",
     },
     {
-      id: "3",
+      id: "49",
 
       name: "tiktok",
       path: "/tiktok",
@@ -837,6 +838,15 @@ export function NavigationBar() {
       content:
         "San Francisco: TikTok on Monday filed suit in US federal court to stop the state of Montana from implementing an overall ban on the video sharing app.The unprecedented ban, set to start in 2024, violates the constitutionally protected right to free speech, TikTok argued in the suit.We believe our legal challenge will prevail based on an exceedingly strong set of precedents and facts, a TikTok spokesperson told AFP.Montana Governor Greg Gianforte signed the unprecedented prohibition into law on May 17.Gianforte said on Twitter that he endorsed the ban in order to protect Montanans' personal and private data from the Chinese Communist Party.The state has enacted these extraordinary and unprecedented measures based on nothing more than unfounded speculation, TikTok contended in its lawsuit.TikTok called on the federal court to declare the Montana ban on its app unconstitutional and block the state from ever putting it into ..",
     },
+    {
+      id: "50",
+      path: "/bank",
+      categorey: "The Latest Article",
+      img: "https://bl-i.thgim.com/public/incoming/ivmgyn/article66424989.ece/alternates/LANDSCAPE_1200/2023-01-23T102603Z_550141351_RC29WY90SDM5_RTRMADP_3_AXIS-BANK-RESULTS.JPG",
+      title:"Axis Bank will offer the farmers, part of ITC’s agri ecosystem, a range of products, including gold loans",
+      heading: "Axis Bank ties up with ITC to offer loans to farmers",
+      text: "Axis Bank has collaborated with ITC Ltd to offer loans and services to farmers who are part of ITC’s agriculture ecosystem, the two companies said in a joint release.The partnership will enable Axis Bank to cater to the financial requirements of unserved and under-served farmers based in remote regions by offering them a range of assets and liability products such as farmer loans and gold loans, among others.Axis Bank will leverage ITCMAARS (Meta Market for Advanced Agricultural Rural Services), a full-stack agri-tech application to reach out to the farmers and address their financial requirements. The bank will also offer farmers a range of products and services through its rural-urban and semi-urban (RUSU) branches located across 656 districts.Axis Bank will leverage ITCMAARS (Meta Market for Advanced Agricultural Rural Services), a full-stack agri-tech application to reach out to the farmers and address their financial requirements. The bank will also offer farmers a range of products and services through its rural-urban and semi-urban (RUSU) branches located across 656 districts. Axis Bank will leverage ITCMAARS (Meta Market for Advanced Agricultural Rural Services), a full-stack agri-tech application to reach out to the farmers and address their financial requirements. The bank will also offer farmers a range of products and services through its rural-urban and semi-urban (RUSU) branches located across 656 districts. Powered by the ITC e-Choupal ecosystem that connects with over 4 million farmers, we have now implemented ITCMAARS a phygital ecosystem that provides a range of solutions through Hyperlocal and personalised advisory, Agri- Inputs, Financial services and Market linkages,” said Rajnikant Rai, Divisional Chief Executive, Agri Business Division, ITC.Timely availability of institutional credit will enable the farmer to buy quality Inputs, which will help improve productivity and enhance farm incomes, he added.Through this initiative, Axis Bank aims to further scale up its Bharat Banking strategy by increasing new-to-bank accounts. As of December 31, the bank’s rural advances were up 27 per cent YoY, disbursements were higher by 12 per cent and deposits were up 16 per cent on year. ",
+    },
   ]);
 
   return (
@@ -846,6 +856,7 @@ export function NavigationBar() {
       </div>
       <div>
         <BrowserRouter>
+        
           <Routes>
             <Route path="/" element={<Home />} />
             <Route
@@ -1177,6 +1188,7 @@ export function NavigationBar() {
               }
             />
           </Routes>
+         
         </BrowserRouter>
       </div>
     </>

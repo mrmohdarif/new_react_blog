@@ -3,6 +3,7 @@ import { Nav } from "../Nav";
 import { Thelatest } from "./Thelatest";
 import { Thelatestarticle } from "./Thelatestarticle";
 import { Thelateststories } from "./Thelateststories";
+import Footer from "../Footer";
 export const store = createContext();
 export function Home() {
   const [data, setdata] = useState([
@@ -116,6 +117,7 @@ export function Home() {
         <Thelatest />
         <Thelatestarticle />
         <Thelateststories />
+        <Footer/>
       </store.Provider>
     </>
   );

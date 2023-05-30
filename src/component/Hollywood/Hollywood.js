@@ -5,6 +5,8 @@ import { store1 } from "../../NavigationBar";
 import { HollywoodThelatest } from "./HollywoodThelatest";
 import { HollywoodThelatestarticle } from "./HollywoodThelatestarticle";
 import { HollywoodThelateststories } from "./HollywoodThelateststories";
+import Footer from "../../Footer";
+
 
 export function Hollywood(){
    const [data9]=useContext(store1)
@@ -30,6 +32,7 @@ export function Hollywood(){
               <HollywoodThelatest/>
               <HollywoodThelatestarticle/>
               <HollywoodThelateststories/>
+              <Footer/>
         </>
     )
 }

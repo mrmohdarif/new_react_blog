@@ -1,18 +1,19 @@
 import React, { useContext } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { store1 } from "../../NavigationBar";
 
 export function Javan(){
   const [data20]=useContext(store1)
+  const back=useNavigate()
   console.log("data20",data20)
     return(
-        <>
+        <div>
          <div className="main_move_div">
             {data20.filter((item)=>item.categorey==='The Latest' && item.name==='move').map((data,index)=>{
                 return(
                     <div>
                     <div className="poster">
-                    <img src={data.img} alt="the_latest_Javan" style={{width:"600px"}} />
+                    <img src={data.img} alt="the_latest_Javan" className="javan_img" style={{}} />
                     </div>
                     <h1 style={{textAlign:"center"}}>{data.title}</h1>
                      <div className="move_details">
@@ -64,13 +65,14 @@ export function Javan(){
                      <h1>{data.contentheading}</h1>
                      <p style={{fontSize:"22px"}}>{data.content}</p>
                      <div className="poster">
-                    <img src={data.urlToimg} alt="the_latest_Javan" style={{width:"600px"}} />
+                    <img src={data.urlToimg}  className="javan_img" alt="the_latest_Javan" style={{}} />
                     </div>
                     </div>
                 )
             })}
             
          </div>
-        </>
+         <button className='backbtn' onClick={()=>{back(-1)}}>Back</button>
+        </div>
     )
 }

@@ -5,7 +5,7 @@ import { store1 } from "../../NavigationBar";
 import { BollywoodThelatest } from "./BollywoodThelatest";
 import { BollywoodThelatestarticle } from "./BollywoodThelatestarticle";
 import { BollywoodThelateststories } from "./BollywoodThelateststories";
-
+import Footer from "../../Footer";
 export function Bollywood() {
   const [data5] = useContext(store1);
   console.log("this is data5", data5);
@@ -58,6 +58,7 @@ export function Bollywood() {
       <BollywoodThelatest />
       <BollywoodThelatestarticle />
       <BollywoodThelateststories />
+      <Footer/>
     </>
   );
 }

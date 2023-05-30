@@ -4,7 +4,7 @@ export function HollywoodThelateststories(){
     const [data12]=useContext(store1)
     console.log("this is data3",data12);
     return(
-        <>
+        <div className="Hollywood_latest_stories">
           <h1>Latest Stories</h1>
              
            <div className="latest_stories">
@@ -23,6 +23,6 @@ export function HollywoodThelateststories(){
              
 
            </div>
-        </>
+        </div>
     )
 }

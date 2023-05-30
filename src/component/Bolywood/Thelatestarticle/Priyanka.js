@@ -24,7 +24,8 @@ function Priyanka() {
             <img
               src={data.urlToImage}
               alt="the_latest_Javan"
-              style={{ width: "600px" }}
+              style={{  }}
+              className='actres'
             />
             <p>{data.content}</p>
             <button

@@ -1,68 +1,23 @@
 import React, { useContext } from 'react'
 import { store1 } from '../../../NavigationBar'
+import { useNavigate } from 'react-router-dom'
 
 function Bank() {
   const [data20]=useContext(store1)
+  const back=useNavigate()
   return (
     <div className="main_move_div">
-    {data20.filter((item)=>item.categorey==='The Latest' && item.name==='move').map((data,index)=>{
+    {data20.filter((item)=>item.categorey==='The Latest Article' && item.path==='/bank').map((data,index)=>{
         return(
             <div>
+                <h1 style={{textAlign:"center"}}>{data.heading}</h1>
             <div className="poster">
-            <img src={data.img} alt="the_latest_Javan" style={{width:"600px"}} />
+            <img src={data.img} alt="the_latest_Javan" className='the_latest_Javan_img' style={{}} />
             </div>
-            <h1 style={{textAlign:"center"}}>{data.title}</h1>
-             <div className="move_details">
-                <table>
-                   <tr>
-                   <th>Release Date</th> 
-                   <td>{data.ReleaseDate}</td>
-                   </tr>
-                   <tr/>
-                   <tr>
-                   <th>Language</th> 
-                   <td>{data.Language}</td>
-                   </tr>
-                   <tr>
-                   <th>Dubbed In</th> 
-                   <td>{data.DubbedIn}</td>
-                   </tr>
-                   <tr>
-                   <th>Genre</th> 
-                   <td>{data.Genre}</td>
-                   </tr>
-                   <tr>
-                   <th>Cast</th> 
-                   <td>{data.Cast}</td>
-                   </tr>
-                   <tr>
-                   <th>Director</th> 
-                   <td>{data.Director}</td>
-                   </tr>
-                   {/* <tr>
-                   <th>Cinematography</th> 
-                   <td>{data.Cinematography}</td>
-                   </tr> */}
-                   <tr>
-                   <th>Music</th> 
-                   <td>{data.Music}</td>
-                   </tr>
-                   <tr >
-                   <th>Producer</th> 
-                   <td>{data.Producer}</td>
-                   
-                   </tr>
-                   <tr>
-                   <th>Production</th> 
-                   <td>{data.Production}</td>
-                   </tr>
-                </table>
-             </div>
-             <h1>{data.contentheading}</h1>
-             <p style={{fontSize:"22px"}}>{data.content}</p>
-             <div className="poster">
-            <img src={data.urlToimg} alt="the_latest_Javan" style={{width:"600px"}} />
-            </div>
+           
+             <h1>{data.title}</h1>
+             <p style={{fontSize:"22px"}}>{data.text}</p>
+             <button className='backbtn' onClick={()=>{back(-1)}}>Back</button>
             </div>
         )
     })}

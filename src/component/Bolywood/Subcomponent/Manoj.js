@@ -13,7 +13,7 @@ function Manoj() {
                     <div>
                     <div className="poster">
                     
-                    <img src={data.urlToImage} alt="the_latest_Javan" style={{width:"600px"}} />
+                    <img src={data.urlToImage} alt="the_latest_Javan" className='manoj' style={{}} />
                     </div>
                     {/* <h1 style={{textAlign:"center"}}>{data.title}</h1> */}
                     <h1>{data.title}</h1>

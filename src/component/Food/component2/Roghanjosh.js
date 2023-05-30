@@ -23,7 +23,8 @@ function Roghanjosh() {
               <img
                 src={data.urlToImage}
                 alt="the_latest_Javan"
-                style={{ width: "600px" }}
+                style={{ }}
+                className='food_article'
               />
 
               <p style={{ lineHeight: "1.5" }}>{data.content}</p>

@@ -1,9 +1,10 @@
 import React, { useContext } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { store1 } from "../../NavigationBar";
 
 export function Papaya(){
    const [data21]=useContext(store1)
+   const back=useNavigate()
    console.log("datapapaya",data21)
     return(
         <>
@@ -13,7 +14,7 @@ export function Papaya(){
                 <div className="papaya_sub"> 
                     <h1>{data.title}</h1>
                     <span>{data.descriptin}</span>
-                    <img src={data.urltoimg} alt="the_latest_Javan" style={{width:"600px"}} />
+                    <img src={data.urltoimg} alt="the_latest_Javan" className="papaya_img" style={{}} />
                      <p>
                         {data.content}
                      </p>
@@ -21,6 +22,7 @@ export function Papaya(){
             )
           })}
           </div>
+          <button className='backbtn' onClick={()=>{back(-1)}}>Back</button>
         </>
     )
 }

@@ -1,6 +1,6 @@
-import React, { useContext } from 'react'
-import { useNavigate } from 'react-router-dom';
-import { store1 } from '../../../NavigationBar';
+import React, { useContext } from "react";
+import { useNavigate } from "react-router-dom";
+import { store1 } from "../../../NavigationBar";
 
 function Masaladhosa() {
   const [dataE] = useContext(store1);
@@ -24,7 +24,8 @@ function Masaladhosa() {
               <img
                 src={data.urlToImage}
                 alt="the_latest_Javan"
-                style={{ width: "600px" }}
+                style={{}}
+                className="food_article"
               />
 
               <p style={{ lineHeight: "1.5" }}>{data.content}</p>
@@ -43,4 +44,4 @@ function Masaladhosa() {
   );
 }
 
-export default Masaladhosa
+export default Masaladhosa;
