@@ -19,9 +19,11 @@ function Bank() {
              <p style={{fontSize:"22px"}}>{data.text}</p>
              <button className='backbtn' onClick={()=>{back(-1)}}>Back</button>
             </div>
+            
         )
+        
     })}
-    
+      
  </div>
   )
 }

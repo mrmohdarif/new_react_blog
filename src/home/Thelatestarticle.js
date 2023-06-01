@@ -15,7 +15,7 @@ export function Thelatestarticle(){
      
      
            <div className="the_latest_article_child">
-               {data2.filter((item)=>item.categorey==="The Latest Article").map((d1,index)=>{
+               {data2.filter((item)=>item.categorey==="The Latest Article" ).map((d1,index)=>{
                 return(
                 <div className="latest_article_box" key={d1.id}>
                <Link to={d1.path}><img src={d1.img} alt="latest_article"  className="img"/></Link> 

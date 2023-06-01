@@ -4,7 +4,9 @@ function Footer() {
   return (
     <>
     <footer className='footer'>
-    ❤️ Mohd Arif
+      <span>❤️ Mohd Arif</span>
+      <br></br>
+      <span className="copyright">&#169;2023 Copyright:prepbyte.com</span>
     </footer>
       {/* <div className='footer'></div> */}
     </>

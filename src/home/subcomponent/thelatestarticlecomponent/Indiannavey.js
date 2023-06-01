@@ -1,8 +1,11 @@
 import React, { useContext } from 'react'
 import { store1 } from '../../../NavigationBar'
+import { useNavigate } from 'react-router-dom'
+
 
 function Indiannavey() {
   const [data21]=useContext(store1)
+  const back=useNavigate()
   console.log("datapapaya",data21)
    return(
        <>
@@ -16,6 +19,7 @@ function Indiannavey() {
                     <p>
                        {data.content}
                     </p>
+                    <button className='backbtn' onClick={()=>{back(-1)}}>Back</button>
                </div>
            )
          })}

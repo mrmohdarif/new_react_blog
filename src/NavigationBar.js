@@ -44,6 +44,24 @@ import Pavbhaji from "./component/Food/component2/Pavbhaji";
 import Masaladhosa from "./component/Food/component2/Masaladhosa";
 import Roghanjosh from "./component/Food/component2/Roghanjosh";
 import Footer from "./Footer";
+import Rahul from "./home/homelateststories/Rahul";
+import Virat from "./home/homelateststories/Virat";
+import Upi from "./home/homelateststories/Upi";
+import Akshay from "./component/Bolywood/bolywoodstores/Akshay";
+import Zinta from "./component/Bolywood/bolywoodstores/Zinta";
+import Khatro from "./component/Bolywood/bolywoodstores/Khatro";
+import Prince from "./component/Hollywood/holywoodstores/Prince";
+import Lily from "./component/Hollywood/holywoodstores/Lily";
+import Kim from "./component/Hollywood/holywoodstores/Kim";
+import Juce from "./component/Fitness/fitnessstores/Juce";
+
+import Clinic from "./component/Fitness/fitnessstores/Clinic";
+import Anand from "./component/Tech/techlateststores/Anand";
+import Iq from "./component/Tech/techlateststores/Iq";
+import Google from "./component/Tech/techlateststores/Google";
+import Chicken65 from "./component/Food/foodstores/Chicken65";
+import Gulabjamun from "./component/Food/foodstores/Gulabjamun";
+import Pakoda from "./component/Food/foodstores/Pakoda";
 
 export const store1 = createContext();
 export function NavigationBar() {
@@ -166,51 +184,42 @@ export function NavigationBar() {
     },
     {
       id: "8",
+      path:"/akshay",
       categorey: "Latest Stories",
       name: "Bollywood",
       author: "etimes.in",
-      title:
-        "Akshay Kumar offers prayers at Kedarnath Temple, greets fans with folded hands - watch video - Indiatimes.com",
-      description:
-        "Akshay Kumar took some time off from the shoot of 'Bade Miyan Chote Miyan', to offer prayers at the Kedarath temple.",
+      title:"Akshay Kumar offers prayers at Kedarnath Temple, greets fans with folded hands - watch video - Indiatimes.com",
+      description:"Akshay Kumar took some time off from the shoot of 'Bade Miyan Chote Miyan', to offer prayers at the Kedarath temple.",
       url: "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/akshay-kumar-offers-prayers-at-kedarnath-temple-chants-bam-bam-bhole-watch-video/articleshow/100444644.cms",
-      urlToImage:
-        "https://static.toiimg.com/thumb/msid-100444972,width-1070,height-580,imgsize-51318,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+      urlToImage:"https://static.toiimg.com/thumb/msid-100444972,width-1070,height-580,imgsize-51318,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
       publishedAt: "2023-05-23T09:48:00Z",
-      content:
-        '"Only respect for these artists": Tiger Shroff expresses gratitude towards stunt artistsThe actor Tiger Shroff is one of the best performers when it comes to action sequences. Alongside all of the ha… [+130 chars]',
+      content:'"Only respect for these artists": Tiger Shroff expresses gratitude towards stunt artistsThe actor Tiger Shroff is one of the best performers when it comes to action sequences. Alongside all of the ha…',
     },
     {
       id: "9",
+      path:"/zinta",
       categorey: "Latest Stories",
       name: "Bollywood",
       author: "HT Entertainment Desk",
-      title:
-        "Preity Zinta, husband Gene chat and laugh with Dalai Lama in Dharamshala - Hindustan Times",
-      description:
-        "Preity Zinta, along with Gene Goodenough, met Dalai Lama in Himachal Pradesh. The actor said she was grateful as she could spend time with him. | Bollywood",
+      title:"Preity Zinta, husband Gene chat and laugh with Dalai Lama in Dharamshala - Hindustan Times",
+      description:"Preity Zinta, along with Gene Goodenough, met Dalai Lama in Himachal Pradesh. The actor said she was grateful as she could spend time with him. | Bollywood",
       url: "https://www.hindustantimes.com/entertainment/bollywood/preity-zinta-husband-gene-goodenough-chat-and-laugh-with-dalai-lama-in-dharamshala-see-pics-101684828315003.html",
-      urlToImage:
-        "https://www.hindustantimes.com/ht-img/img/2023/05/23/1600x900/preity_zinta_1684829537729_1684829553591.jpg",
+      urlToImage:"https://www.hindustantimes.com/ht-img/img/2023/05/23/1600x900/preity_zinta_1684829537729_1684829553591.jpg",
       publishedAt: "2023-05-23T08:20:36Z",
-      content:
-        "Actor Preity Zinta shared pictures as she and her husband Gene Goodenough met Dalai Lama in Dharamshala. Taking to Instagram, Preity posted a series of photos as they shared a conversation and some l… [+2144 chars]",
+      content:"Actor Preity Zinta shared pictures as she and her husband Gene Goodenough met Dalai Lama in Dharamshala. Taking to Instagram, Preity posted a series of photos as they shared a conversation and some ",
     },
     {
       id: "10",
+      path:"/khatro",
       categorey: "Latest Stories",
       name: "Bollywood",
       author: "HT Entertainment Desk",
-      title:
-        "Khatron Ke Khiladi 13's complete list of confirmed contestants - Hindustan Times",
-      description:
-        "Producers of the adventure reality show Khatron Ke Khiladi 13 officially confirmed the final list of contestant for the upcoming show.",
+      title:"Khatron Ke Khiladi 13's complete list of confirmed contestants - Hindustan Times",
+      description:"Producers of the adventure reality show Khatron Ke Khiladi 13 officially confirmed the final list of contestant for the upcoming show.",
       url: "https://www.hindustantimes.com/entertainment/tv/khatron-ke-khiladi-13s-complete-list-of-confirmed-contestants-daisy-shah-sheezan-khan-and-more-101684824765314.html",
-      urlToImage:
-        "https://www.hindustantimes.com/ht-img/img/2023/05/23/1600x900/kkk13confirmedlist_sheezandaisy_1684828449423_1684828449670.jpg",
+      urlToImage:"https://www.hindustantimes.com/ht-img/img/2023/05/23/1600x900/kkk13confirmedlist_sheezandaisy_1684828449423_1684828449670.jpg",
       publishedAt: "2023-05-23T08:13:23Z",
-      content:
-        "The final list of confirmed contestants for the upcoming season of the adventure reality show Khatron Ke Khiladi 13 is out. The channel announced season 13 of Rohit Shetty's show on Tuesday. (Also re… [+3781 chars]",
+      content:"The final list of confirmed contestants for the upcoming season of the adventure reality show Khatron Ke Khiladi 13 is out. The channel announced season 13 of Rohit Shetty's show on Tuesday. ",
     },
 
     {
@@ -314,51 +323,42 @@ export function NavigationBar() {
     },
     {
       id: "17",
+      path:"/kim",
       name: "Hollywood",
       categorey: "Latest Stories",
       author: "Riley Cardoza",
-      title:
-        "Kim Kardashian: Kanye West marriage was 'beautiful,' but I can't 'help' him - Page Six",
-      description:
-        "“People think that if a relationship doesn’t work out that it’s a failure, but I don’t really look at it like that,” the “Kardashians” star said.",
+      title:"Kim Kardashian: Kanye West marriage was 'beautiful,' but I can't 'help' him - Page Six",
+      description:"“People think that if a relationship doesn’t work out that it’s a failure, but I don’t really look at it like that,” the “Kardashians” star said.",
       url: "https://pagesix.com/2023/05/23/kim-kardashian-kanye-west-marriage-was-beautiful-cant-help-him/",
-      urlToImage:
-        "https://pagesix.com/wp-content/uploads/sites/3/2023/05/kim-kardashian-kanye-west-18.jpg?quality=75&strip=all&w=1200",
+      urlToImage:"https://pagesix.com/wp-content/uploads/sites/3/2023/05/kim-kardashian-kanye-west-18.jpg?quality=75&strip=all&w=1200",
       publishedAt: "2023-05-23T13:37:00Z",
-      content:
-        "Kim Kardashian doesn’t consider her marriage to Kanye West a “failure.”\r\nThe “Kardashians” star reflected on their “beautiful” but broken union on Jay Shetty’s “On Purpose” podcast Monday, explaining… [+2534 chars]",
+      content:"Kim Kardashian doesn’t consider her marriage to Kanye West a “failure.”\r\nThe “Kardashians” star reflected on their “beautiful” but broken union on Jay Shetty’s “On Purpose” podcast Monday, explaining… [+2534 chars]",
     },
     {
       id: "18",
+      path:"/prince",
       name: "Hollywood",
       categorey: "Latest Stories",
       author: "Jess Cohen",
-      title:
-        'Prince Harry and Meghan Markle\'s Rep Slams "Abhorrent" Allegations About Car Chase Being a PR Stunt - E! NEWS',
-      description:
-        'Days after Prince Harry and Meghan Markle’s team said were involved in a "near catastrophic" car chase with paparazzi, the couple\'s rep is responding to critics claiming the incident was a PR stunt.',
+      title:'Prince Harry and Meghan Markle\'s Rep Slams "Abhorrent" Allegations About Car Chase Being a PR Stunt - E! NEWS',
+      description:'Days after Prince Harry and Meghan Markle’s team said were involved in a "near catastrophic" car chase with paparazzi, the couple\'s rep is responding to critics claiming the incident was a PR stunt.',
       url: "https://www.eonline.com/news/1375230/prince-harry-and-meghan-markles-rep-slams-abhorrent-allegations-about-car-chase-being-a-pr-stunt",
-      urlToImage:
-        "https://pagesix.com/wp-content/uploads/sites/3/2023/05/NYPICHPDPICT000011605749.jpg?quality=75&strip=all&w=1200",
+      urlToImage:"https://pagesix.com/wp-content/uploads/sites/3/2023/05/NYPICHPDPICT000011605749.jpg?quality=75&strip=all&w=1200",
       publishedAt: "2023-05-23T15:15:00Z",
-      content:
-        "Prince Harry and Meghan Markle's team is serving up some royal tea for critics of the couple.\r\nNearly a week after a rep for the Duke and Duchess of Sussex said they were involved in a two-hour car c… [+751 chars]",
+      content:"Prince Harry and Meghan Markle's team is serving up some royal tea for critics of the couple.\r\nNearly a week after a rep for the Duke and Duchess of Sussex said they were involved in a two-hour car c… [+751 chars]",
     },
     {
       id: "19",
+      path:"/lily",
       name: "Hollywood",
       categorey: "Latest Stories",
       author: "Baz Bamigboye",
-      title:
-        "Breaking Baz @ Cannes: Lily-Rose Depp Rises Above ‘The Idol’; The Pain That Underpins Todd Haynes’ Brilliant ‘May December’ - Deadline",
-      description:
-        "Sometimes in Cannes it’s fun just to hover at the fringes of a party to observe the interactions, the body language, the eye-rolling, who’s drinking what and who isn’t. The shindig for HBO&#82…",
+      title:"Breaking Baz @ Cannes: Lily-Rose Depp Rises Above ‘The Idol’; The Pain That Underpins Todd Haynes’ Brilliant ‘May December’ - Deadline",
+      description:"Sometimes in Cannes it’s fun just to hover at the fringes of a party to observe the interactions, the body language, the eye-rolling, who’s drinking what and who isn’t. The shindig for HBO&#82…",
       url: "https://deadline.com/2023/05/lily-rose-depp-the-idol-todd-haynes-may-december-cannes-breaking-baz-1235376824/",
-      urlToImage:
-        "https://stylecaster.com/wp-content/uploads/2020/07/the-old-guard.png",
+      urlToImage:"https://stylecaster.com/wp-content/uploads/2020/07/the-old-guard.png",
       publishedAt: "2023-05-23T15:46:00Z",
-      content:
-        "Sometimes in Cannes it’s fun just to hover at the fringes of a party to observe the interactions, the body language, the eye-rolling, who’s drinking what and who isn’t.\r\nThe shindig for HBO’s The Ido… [+6137 chars]",
+      content:"Sometimes in Cannes it’s fun just to hover at the fringes of a party to observe the interactions, the body language, the eye-rolling, who’s drinking what and who isn’t.\r\nThe shindig for HBO’s The Ido… [+6137 chars]",
     },
     {
       id: "20",
@@ -462,51 +462,42 @@ export function NavigationBar() {
     },
     {
       id: "26",
+      path:"/juce",
       name: "Fitness",
       categorey: "Latest Stories",
       author: "Rishabh Raj",
-      title:
-        "9 green juices that can help manage diabetes and high blood pressure - Recipes",
-      description:
-        "As per data, every fifth person in the world is either suffering from diabetes or high blood pressure, and the main reason behind all these health issues is an erratic lifestyle. Swear by these 10 natural green juices that will help manage diabetes and blood …",
+      title:"9 green juices that can help manage diabetes and high blood pressure - Recipes",
+      description:"As per data, every fifth person in the world is either suffering from diabetes or high blood pressure, and the main reason behind all these health issues is an erratic lifestyle. Swear by these 10 natural green juices that will help manage diabetes and blood …",
       url: "https://recipes.timesofindia.com/web-stories/9-green-juices-that-can-help-manage-diabetes-and-high-blood-pressure/photostory/100448937.cms",
-      urlToImage:
-        "https://static.toiimg.com/thumb/msid-100448988,imgsize-64516,width-900,height-1200,resizemode-6/100448988.jpg",
+      urlToImage:"https://static.toiimg.com/thumb/msid-100448988,imgsize-64516,width-900,height-1200,resizemode-6/100448988.jpg",
       publishedAt: "2023-05-23T13:34:50Z",
-      content:
-        "Blend 1 green apple, 1/2 cucumber, 1 tbsp lemon juice, 4 kale leaves, 1 sprig celery, 4-6 spinach leaves, 1/2 beetroot, 1/2 tomato, 1 inch ginger, and 1 cup bitter gourd. Drink it fresh.",
+      content:"Blend 1 green apple, 1/2 cucumber, 1 tbsp lemon juice, 4 kale leaves, 1 sprig celery, 4-6 spinach leaves, 1/2 beetroot, 1/2 tomato, 1 inch ginger, and 1 cup bitter gourd. Drink it fresh.",
     },
     {
       id: "28",
+      path:"/clinic",
       name: "Fitness",
       categorey: "Latest Stories",
       author: "Vicky Pathare",
-      title:
-        "Pune’s KEM hosp study to reduce children’s susceptibility to type 2 diabetes - Hindustan Times",
-      description:
-        "According to the researchers, children born to diabetic parents and children who are underweight at birth are genetically likely to develop type 2 Diabetes",
+      title:"Pune’s KEM hosp study to reduce children’s susceptibility to type 2 diabetes - Hindustan Times",
+      description:"According to the researchers, children born to diabetic parents and children who are underweight at birth are genetically likely to develop type 2 Diabetes",
       url: "https://www.hindustantimes.com/cities/pune-news/priya-follow-up-study-aims-to-decrease-children-s-susceptibility-to-type-2-diabetes-from-the-time-they-are-inside-their-mothers-wombs-101684860383359.html",
-      urlToImage:
-        "https://www.hindustantimes.com/ht-img/img/2023/05/23/1600x900/Researchers-at-the-city-based-KEM-Hospital-have-in_1684860379584.jpg",
+      urlToImage:"https://www.hindustantimes.com/ht-img/img/2023/05/23/1600x900/Researchers-at-the-city-based-KEM-Hospital-have-in_1684860379584.jpg",
       publishedAt: "2023-05-23T16:46:22Z",
-      content:
-        "Researchers at the city-based KEM Hospital have initiated a study to decrease the childrens susceptibility to type 2 Diabetes from the time they are inside their mothers wombs. According to the resea… [+2948 chars]",
+      content:"Researchers at the city-based KEM Hospital have initiated a study to decrease the childrens susceptibility to type 2 Diabetes from the time they are inside their mothers wombs. According to the resea… [+2948 chars]",
     },
     {
       id: "29",
+      path:"/papya",
       name: "Fitness",
       categorey: "Latest Stories",
       author: "Ivy C",
-      title:
-        "Papaya: The antioxidant powerhouse for weight loss, digestion and anti-cancer benefits - Longevity.Technology",
-      description:
-        "The papaya is a powerhouse of antioxidant. It has anti-cancerous properties, aids in digestion, protects the heart, may also provide protection against sunburns.",
+      title:"Papaya: The antioxidant powerhouse for weight loss, digestion and anti-cancer benefits - Longevity.Technology",
+      description:"The papaya is a powerhouse of antioxidant. It has anti-cancerous properties, aids in digestion, protects the heart, may also provide protection against sunburns.",
       url: "https://longevity.technology/lifestyle/papaya-the-antioxidant-powerhouse-for-weight-loss-digestion-and-anti-cancer-benefits/",
-      urlToImage:
-        "https://longevity.technology/lifestyle/wp-content/uploads/2023/05/sliced-papaya-laid-on-wooden-table.jpg",
+      urlToImage:"https://longevity.technology/lifestyle/wp-content/uploads/2023/05/sliced-papaya-laid-on-wooden-table.jpg",
       publishedAt: "2023-05-23T17:04:23Z",
-      content:
-        "Get to know the extraordinary power of papaya, a remarkable fruit renowned for its exceptional antioxidant properties.\r\nPapaya can cause allergies in some people. If you encounter any adverse reactio… [+3588 chars]",
+      content:"Get to know the extraordinary power of papaya, a remarkable fruit renowned for its exceptional antioxidant properties.\r\nPapaya can cause allergies in some people. If you encounter any adverse reactio… [+3588 chars]",
     },
     {
       id: "29",
@@ -605,37 +596,33 @@ export function NavigationBar() {
     },
     {
       id: "35",
+      path:"/anand",
       name: "Technology",
       categorey: "Latest Stories",
       author: "Moneycontrol News",
-      title:
-        "India surges as second-largest steel producer; Anand Mahindra celebrates in emotional tweet - Moneycontrol",
-      description:
-        "This was in response to a striking statistic that highlighted India's remarkable growth in the global steel manufacturing industry",
+      title:"India surges as second-largest steel producer; Anand Mahindra celebrates in emotional tweet - Moneycontrol",
+      description:"This was in response to a striking statistic that highlighted India's remarkable growth in the global steel manufacturing industry",
       url: "https://www.moneycontrol.com/news/trends/india-surges-as-second-largest-steel-producer-anand-mahindra-celebrates-in-emotional-tweet-10647281.html",
-      urlToImage:
-        "https://images.moneycontrol.com/static-mcnews/2023/04/ezgif.com-webp-to-jpg-4-770x431.jpg",
+      urlToImage:"https://images.moneycontrol.com/static-mcnews/2023/04/ezgif.com-webp-to-jpg-4-770x431.jpg",
       publishedAt: "2023-05-23T16:01:51Z",
-      content:
-        "Renowned business tycoon Anand Mahindra, Chairman of the Mahindra Group, recently took to Twitter to express his deep-rooted emotions regarding the success of the Indian steel industry.\r\nThis was in … [+1345 chars]",
+      content:"Renowned business tycoon Anand Mahindra, Chairman of the Mahindra Group, recently took to Twitter to express his deep-rooted emotions regarding the success of the Indian steel industry.\r\nThis was in … [+1345 chars]",
     },
     {
       id: "36",
+      path:"/iq",
       name: "Technology",
       categorey: "Latest Stories",
       author: "Michail",
       title: "iQOO Pad and TWS Air Pro also announced - GSMArena.com",
-      description:
-        "iQOO Pad packs a Dimensity 9000+ chipset while the TWS Air Pro feature 14.2 drivers and ANC. Alongside its new iQOO Neo8 series smartphones, vivo also...",
+      description:"iQOO Pad packs a Dimensity 9000+ chipset while the TWS Air Pro feature 14.2 drivers and ANC. Alongside its new iQOO Neo8 series smartphones, vivo also...",
       url: "https://www.gsmarena.com/iqoo_pad_and_tws_air_pro_also_announced-news-58649.php",
-      urlToImage:
-        "https://fdn.gsmarena.com/imgroot/news/23/05/iqoo-pad-tws-air-pro-ofic/-952x498w6/gsmarena_00.jpg",
+      urlToImage:"https://fdn.gsmarena.com/imgroot/news/23/05/iqoo-pad-tws-air-pro-ofic/-952x498w6/gsmarena_00.jpg",
       publishedAt: "2023-05-23T16:28:01Z",
-      content:
-        "Alongside its new iQOO Neo8 series smartphones, vivo also announced the iQOO Pad and iQOO TWS Air Pro wireless earbuds. The tablet is nearly identical to the vivo Pad2 but with a Dimensity 9000+ chip… [+1446 chars]",
+      content:"Alongside its new iQOO Neo8 series smartphones, vivo also announced the iQOO Pad and iQOO TWS Air Pro wireless earbuds. The tablet is nearly identical to the vivo Pad2 but with a Dimensity 9000+ chip… [+1446 chars]",
     },
     {
       id: "37",
+      path:"/google",
       name: "Technology",
       categorey: "Latest Stories",
       author: "Greg Finn",
@@ -738,36 +725,33 @@ export function NavigationBar() {
     },
     {
       id: "44",
+      path:"/chicken65",
       name: "Food",
       categorey: "Latest Stories",
       author: "Doodhpak  Santula",
       title: "Chicken 65",
-      description:
-        " Chicken 65 is a classic poultry dish with origins in Chennai, India. It consists of deep-fried chicken that is marinated in ginger, lemon, red chiles, and a variety of other spices. ",
+      description:" Chicken 65 is a classic poultry dish with origins in Chennai, India. It consists of deep-fried chicken that is marinated in ginger, lemon, red chiles, and a variety of other spices. ",
       url: "https://www.tasteatlas.com/chicken-65",
-      urlToImage:
-        "https://cdn.tasteatlas.com/images/dishes/55f00ba4fe8746a68b8ad62b24226e3b.jpg?mw=1300",
+      urlToImage:"https://cdn.tasteatlas.com/images/dishes/55f00ba4fe8746a68b8ad62b24226e3b.jpg?mw=1300",
       publishedAt: "LAST UPDATE: THU MAR 30 2023",
-      content:
-        " Chicken 65 is a classic poultry dish with origins in Chennai, India. It consists of deep-fried chicken that is marinated in ginger, lemon, red chiles, and a variety of other spices. There are a few theories about the origin of chicken 65. The most popular theory says that it was created in Tamil Nadu by A. M. Buhari in 1965.Another one says that the original dish was made with 65 hot chili peppers, as a testament of manliness. There are also some unlikely theories, such as the one claiming that the chicken was cut into 65 pieces, or that the chicken was 65 days old when the dish was prepared.Due to the dish's popularity, there are numerous variations, and each South Indian state has its own version. In Karnataka, the dish is garnished with grated coconut, and in Andhra Pradesh, the chicken is cooked instead of fried. Chicken 65 is commonly served with hot, red chutneys.",
+      content:" Chicken 65 is a classic poultry dish with origins in Chennai, India. It consists of deep-fried chicken that is marinated in ginger, lemon, red chiles, and a variety of other spices. There are a few theories about the origin of chicken 65. The most popular theory says that it was created in Tamil Nadu by A. M. Buhari in 1965.Another one says that the original dish was made with 65 hot chili peppers, as a testament of manliness. There are also some unlikely theories, such as the one claiming that the chicken was cut into 65 pieces, or that the chicken was 65 days old when the dish was prepared.Due to the dish's popularity, there are numerous variations, and each South Indian state has its own version. In Karnataka, the dish is garnished with grated coconut, and in Andhra Pradesh, the chicken is cooked instead of fried. Chicken 65 is commonly served with hot, red chutneys.",
     },
     {
       id: "45",
+      path:"/gulabjamun",
       name: "Food",
       categorey: "Latest Stories",
       author: "Doodhpak  Santula",
       title: "Gulab jamun",
-      description:
-        "Gulab jamun is a dessert based on milk solids that are kneaded into a dough, shaped into balls, and deep-fried in ghee.",
+      description:"Gulab jamun is a dessert based on milk solids that are kneaded into a dough, shaped into balls, and deep-fried in ghee.",
       url: "https://www.tasteatlas.com/gulab-jamun",
-      urlToImage:
-        "https://cdn.tasteatlas.com/Images/Dishes/23fba80da08c46ceba5a99a5b1f1f200.jpg?mw=1300",
+      urlToImage:"https://cdn.tasteatlas.com/Images/Dishes/23fba80da08c46ceba5a99a5b1f1f200.jpg?mw=1300",
       publishedAt: "LAST UPDATE: THU MAR 30 2023",
-      content:
-        "Gulab jamun is a dessert based on milk solids that are kneaded into a dough, shaped into balls, and deep-fried in ghee. The balls then get soaked in a sugary concoction flavored with saffron, green cardamom, and rose water. When served, gulab jamun is often garnished with dried nuts to further enhance its flavors.The name of the dish is derived from two words: gulab, meaning rose, and jamun, referring to the purple-colored jamun berry fruit. It is believed that the dessert originated from an Arabic dessert called luqmat al-qadi, which became popular during the Mughal era, when Indian cooks at the palace kitchens adapted their cuisine by combining the newly arrived Persian ingredients with their own Hindu flavors.Nowadays, gulab jamun is often prepared for weddings and during the Diwali festival, both in India and in Trinidad and Tobago, where gulab jamun is also quite popular.Five TikTok users last week filed a suit of their own, calling on a federal court to overturn Montana's ban on the app, arguing that it violates their free speech rights. ",
+      content:"Gulab jamun is a dessert based on milk solids that are kneaded into a dough, shaped into balls, and deep-fried in ghee. The balls then get soaked in a sugary concoction flavored with saffron, green cardamom, and rose water. When served, gulab jamun is often garnished with dried nuts to further enhance its flavors.The name of the dish is derived from two words: gulab, meaning rose, and jamun, referring to the purple-colored jamun berry fruit. It is believed that the dessert originated from an Arabic dessert called luqmat al-qadi, which became popular during the Mughal era, when Indian cooks at the palace kitchens adapted their cuisine by combining the newly arrived Persian ingredients with their own Hindu flavors.Nowadays, gulab jamun is often prepared for weddings and during the Diwali festival, both in India and in Trinidad and Tobago, where gulab jamun is also quite popular.Five TikTok users last week filed a suit of their own, calling on a federal court to overturn Montana's ban on the app, arguing that it violates their free speech rights. ",
     },
     {
       id: "46",
+      path:"/pakoda",
       name: "Food",
       categorey: "Latest Stories",
       author: "Doodhpak  Santula",
@@ -840,12 +824,44 @@ export function NavigationBar() {
     },
     {
       id: "50",
+      name:'home',
       path: "/bank",
       categorey: "The Latest Article",
       img: "https://bl-i.thgim.com/public/incoming/ivmgyn/article66424989.ece/alternates/LANDSCAPE_1200/2023-01-23T102603Z_550141351_RC29WY90SDM5_RTRMADP_3_AXIS-BANK-RESULTS.JPG",
       title:"Axis Bank will offer the farmers, part of ITC’s agri ecosystem, a range of products, including gold loans",
       heading: "Axis Bank ties up with ITC to offer loans to farmers",
       text: "Axis Bank has collaborated with ITC Ltd to offer loans and services to farmers who are part of ITC’s agriculture ecosystem, the two companies said in a joint release.The partnership will enable Axis Bank to cater to the financial requirements of unserved and under-served farmers based in remote regions by offering them a range of assets and liability products such as farmer loans and gold loans, among others.Axis Bank will leverage ITCMAARS (Meta Market for Advanced Agricultural Rural Services), a full-stack agri-tech application to reach out to the farmers and address their financial requirements. The bank will also offer farmers a range of products and services through its rural-urban and semi-urban (RUSU) branches located across 656 districts.Axis Bank will leverage ITCMAARS (Meta Market for Advanced Agricultural Rural Services), a full-stack agri-tech application to reach out to the farmers and address their financial requirements. The bank will also offer farmers a range of products and services through its rural-urban and semi-urban (RUSU) branches located across 656 districts. Axis Bank will leverage ITCMAARS (Meta Market for Advanced Agricultural Rural Services), a full-stack agri-tech application to reach out to the farmers and address their financial requirements. The bank will also offer farmers a range of products and services through its rural-urban and semi-urban (RUSU) branches located across 656 districts. Powered by the ITC e-Choupal ecosystem that connects with over 4 million farmers, we have now implemented ITCMAARS a phygital ecosystem that provides a range of solutions through Hyperlocal and personalised advisory, Agri- Inputs, Financial services and Market linkages,” said Rajnikant Rai, Divisional Chief Executive, Agri Business Division, ITC.Timely availability of institutional credit will enable the farmer to buy quality Inputs, which will help improve productivity and enhance farm incomes, he added.Through this initiative, Axis Bank aims to further scale up its Bharat Banking strategy by increasing new-to-bank accounts. As of December 31, the bank’s rural advances were up 27 per cent YoY, disbursements were higher by 12 per cent and deposits were up 16 per cent on year. ",
+    },
+    {
+      id: "51",
+      path:"/rahul",
+      name:"homepage",
+      categorey: "Latest Stories",
+      img: "https://images.indianexpress.com/2023/05/rahul-gandhi-truck-ride.jpg?w=640",
+      heading:"A people’s leader’: After delivery agent, bus commuters, Rahul Gandhi now rides with truck drivers",
+      description:"Gandhi reportedly made the trip to interact with truck drivers and understand their problems.",
+      text: "Congress leader Rahul Gandhi took a truck ride in Haryana, from Murthal to Ambala, in an effort to understand the issues and problems faced by the drivers.After the Bharat Jodo Yatra, where Gandhi interacted with people from all walks of life, the party is now projecting Gandhi as a “jan nayak“, or a people’s leader. During his campaign for the Karnataka elections, several tweets by the Congress handle called Gandhi a peoples leader.Recently, Gandhi rode pillion with a Blinkit delivery agent in Bengaluru as part of Congress’s outreach to gig workers ahead of the Karnataka Assembly elections, which the party won with a resounding mandate.He also boarded a Bengaluru Metropolitan Transport Corporation (BMTC) bus to interact with passengers as part of his campaign. There, he spoke with some women passengers about their aspirations for Karnataka, according to the Congress camp. In its election manifesto, the Congress has also pledged to ensure free travel for women in government buses in the state.",
+      url:"https://indianexpress.com/article/india/rahul-gandhi-truck-ride-murthal-ambala-haryana-8624107/"
+    },
+    {
+      id: "52",
+      path:"/virat",
+      name:"homepage",
+      categorey: "Latest Stories",
+      img: "https://images.indianexpress.com/2023/05/Kohli-41.jpg?w=640",
+      heading:"Disappointed but…’: Virat Kohli breaks silence on RCB’s exit from IPL 2023",
+      description:"Virat Kohli wrote an emotional note after RCB's exit from season 16 of the Indian Premier League.",
+      text: "Virat Kohli enjoyed a successful season in the 2023 Indian Premier League (IPL) with the willow, scoring 639 runs in 14 innings. However, his team – the Royal Challengers Bangalore once again fell short of qualifying for the playoffs.In the last league game, Kohli dished out his best performance of the season against Gujarat Titans, scoring a brilliant hundred. But it wasn’t enough as RCB lost the match and bowed out without making it to the knockout stage.Breaking his silence for the first time since RCB’s exit, Kohli in a post on social media wrote: “A season which had it’s moments but unfortunately we fell short of the goal. Disappointed but we must hold our heads high. To our loyal supporters, grateful for backing us every step of the way.“A big thank you to the coaches, management and my teammates. We aim to be back stronger,” he added.Bangalore had to win the final IPL game in the league stage to claim the last available playoff spot, but Gill followed his century against Sunrisers Hyderabad with an unbeaten 104 off 52 balls as Gujarat reached 198-4 with five balls to spare for a six-wicket win.",
+    },
+    {
+      id: "53",
+      name:"homepage",
+      path:"/upi",
+      categorey: "Latest Stories",
+      img: "https://images.indianexpress.com/2023/05/rupay-upi-payment.jpg?w=640",
+      description:"You can now make UPI payments using RuPay credit cards on Google Pay. Here's how to add it to your Google Pay account.",
+      heading: "Google Pay now supports UPI payments using RuPay credit cards",
+      text: "Google has partnered with the National Payments Corporation of India (NCPI) to launch RuPay credit card-based UPI payments on Google Pay. Users can now add RuPay credit cards on Google Pay and make payments to online and offline merchants.Right now, Google Pay supports RuPay credit cards issued by Axis Bank, Bank of Baroda, Canara Bank, HDFC Bank, Indian Bank, Kotak Mahindra Bank, Punjab National Bank and Union Bank of India, and the company has confirmed to add more banks in the coming days.For the unaware, Google Pay, a UPI-based payment app like most payments apps only support payment using a debit card. With this update, users can now add their RuPay credit card and make payments seamlessly to merchants across the country. At present, there is no option to add Visa and Master-issued credit cards to Google Pay or any other UPI payment app in India.Nalin Bansal, Chief Relationship Management and Key Initiatives, Corporate Business from NPCI, said, “The integration of RuPay Credit Card on UPI delivers a remarkable user experience seamlessly combining the convenience of UPI with the benefits of RuPay Credit Card. We believe this service will mature to provide access to digital credit on demand and consumers will be able to make payments by taking benefit of the inherent security and availability of UPI network across both offline and online platforms. We are delighted to partner with Google Pay as we believe that this combination will play a vital role in democratizing credit in India.”",
     },
   ]);
 
@@ -1187,8 +1203,151 @@ export function NavigationBar() {
                 </store1.Provider>
               }
             />
-          </Routes>
-         
+            <Route
+              path="/rahul"
+              element={
+                <store1.Provider value={[navdata1, setnavdata1]}>
+                  <Rahul/>
+                </store1.Provider>
+              }
+            />
+            <Route
+              path="/virat"
+              element={
+                <store1.Provider value={[navdata1, setnavdata1]}>
+                  <Virat/>
+                </store1.Provider>
+              }
+            />
+            <Route
+              path="/upi"
+              element={
+                <store1.Provider value={[navdata1, setnavdata1]}>
+                  <Upi/>
+                </store1.Provider>
+              }
+            />
+            <Route
+              path="/akshay"
+              element={
+                <store1.Provider value={[navdata1, setnavdata1]}>
+                  <Akshay/>
+                </store1.Provider>
+              }
+            />
+             <Route
+              path="/zinta"
+              element={
+                <store1.Provider value={[navdata1, setnavdata1]}>
+                 <Zinta/>
+                </store1.Provider>
+              }
+            />
+              <Route
+              path="/khatro"
+              element={
+                <store1.Provider value={[navdata1, setnavdata1]}>
+                 <Khatro/>
+                </store1.Provider>
+              }
+            />
+            <Route
+              path="/kim"
+              element={
+                <store1.Provider value={[navdata1, setnavdata1]}>
+                 <Kim/>
+                </store1.Provider>
+              }
+            />
+            <Route
+              path="/prince"
+              element={
+                <store1.Provider value={[navdata1, setnavdata1]}>
+                 <Prince/>
+                </store1.Provider>
+              }
+            />
+            <Route
+              path="/Lily"
+              element={
+                <store1.Provider value={[navdata1, setnavdata1]}>
+                 <Lily/>
+                </store1.Provider>
+              }
+            />
+            <Route
+              path="/juce"
+              element={
+                <store1.Provider value={[navdata1, setnavdata1]}>
+                 <Juce/>
+                </store1.Provider>
+              }
+            />
+            <Route
+              path="/clinic"
+              element={
+                <store1.Provider value={[navdata1, setnavdata1]}>
+                 <Clinic/>
+                </store1.Provider>
+              }
+            />
+             <Route
+              path="/papya"
+              element={
+                <store1.Provider value={[navdata1, setnavdata1]}>
+                 <Papaya/>
+                </store1.Provider>
+              }
+            />
+            <Route
+              path="/anand"
+              element={
+                <store1.Provider value={[navdata1, setnavdata1]}>
+                 <Anand/>
+                </store1.Provider>
+              }
+            />
+            <Route
+              path="/iq"
+              element={
+                <store1.Provider value={[navdata1, setnavdata1]}>
+                 <Iq/>
+                </store1.Provider>
+              }
+            />
+             <Route
+              path="/google"
+              element={
+                <store1.Provider value={[navdata1, setnavdata1]}>
+                 <Google/>
+                </store1.Provider>
+              }
+            />
+            <Route
+              path="/chicken65"
+              element={
+                <store1.Provider value={[navdata1, setnavdata1]}>
+                 <Chicken65/>
+                </store1.Provider>
+              }
+            />
+            <Route
+              path="/gulabjamun"
+              element={
+                <store1.Provider value={[navdata1, setnavdata1]}>
+                  <Gulabjamun/>
+                </store1.Provider>
+              }
+            />
+            <Route
+              path="/pakoda"
+              element={
+                <store1.Provider value={[navdata1, setnavdata1]}>
+                  <Pakoda/>
+                </store1.Provider>
+              }
+            />
+          </Routes>       
         </BrowserRouter>
       </div>
     </>
