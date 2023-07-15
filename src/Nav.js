@@ -1,16 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
+
 export function Nav(){
+  const[show,setshow]=useState(true)
+  const hambergerhandler=()=>{
+    setshow(!show)
+  }
+
     return(
-        <div className="navlink">
+      <>
+
+      {show ? <div className="navlink">
            <span><Link to='/' className="remove_underline">Home</Link> </span>
           <span><Link to='/bollywood'  className="remove_underline">Bollywood</Link> </span>
           <span><Link to='/hollywood' className="remove_underline">Hollywood</Link> </span>
           <span><Link to='/fitness' className="remove_underline">Fitness</Link> </span>
           <span><Link to='/technology' className="remove_underline">Technology</Link> </span>
-          <span><Link to='/food' className="remove_underline">Food</Link> </span> 
+          <span><Link to='/food' className="remove_underline">Food</Link> </span>         
+        </div>:" "}
+         <div className='icons'>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className='hamicon'>
+   <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" onClick={hambergerhandler}/>
+ </svg> 
         </div>
+        </>
     )
 }
 /* @media only screen and (max-width: 600px) 

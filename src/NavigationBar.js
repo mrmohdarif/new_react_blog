@@ -63,7 +63,10 @@ import Chicken65 from "./component/Food/foodstores/Chicken65";
 import Gulabjamun from "./component/Food/foodstores/Gulabjamun";
 import Pakoda from "./component/Food/foodstores/Pakoda";
 
-export const store1 = createContext();
+export const store1=createContext();
+
+
+
 export function NavigationBar() {
   const [navdata1, setnavdata1] = useState([
     {
