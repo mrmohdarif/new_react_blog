@@ -20,7 +20,7 @@ export function Thelatestarticle(){
                 <div className="latest_article_box" key={d1.id}>
                <Link to={d1.path}><img src={d1.img} alt="latest_article"  className="img"/></Link> 
                  <div className="latest_article_box_child">
-                    <h3>{d1.heading}</h3>
+                    <h3 className="latest_article_h3">{d1.heading}</h3>
                     <p>{d1.text}</p>
                  </div>
             </div>

@@ -370,6 +370,9 @@ table tr td {
 .food_latest_stories{
   margin-bottom: 50px;
 }
+.latest_article_h3{
+  width: 300px;
+}
 
 @media only screen and (max-width: 600px) {
   .home1_image {
