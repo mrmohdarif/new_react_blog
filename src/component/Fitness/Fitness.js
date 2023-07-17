@@ -30,7 +30,7 @@ export function Fitness(){
            <FitnessThelatest/>
            <FitnessThelatestarticle/>
            <FitnessThelateststories/>
-           <Footer/>
+          
           
         </>
     )

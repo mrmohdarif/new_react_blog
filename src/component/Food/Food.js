@@ -26,7 +26,7 @@ export function Food(){
             <FoodThelatest/>
             <FoodThelatestarticle/>
             <FoodThelateststories/>
-            <Footer/>
+          
         </>
     )
 }

@@ -32,7 +32,7 @@ export function Hollywood(){
               <HollywoodThelatest/>
               <HollywoodThelatestarticle/>
               <HollywoodThelateststories/>
-              <Footer/>
+             
         </>
     )
 }

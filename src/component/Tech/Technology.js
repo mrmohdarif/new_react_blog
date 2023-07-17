@@ -28,7 +28,7 @@ export function Technology(){
             <TechnologyThelatest/>
             <TechnologyThelatestarticle/>
             <TechnologyThelateststories/>
-            <Footer/>
+          
         </>
     )
 }

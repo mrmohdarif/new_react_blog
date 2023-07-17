@@ -13,14 +13,14 @@ body {
 }
 .food3 {
   width: 400px;
-  height: 150px;
+  height: 140px;
   margin-bottom: 5px;
   border-radius: 10px;
 }
 /* height:"150px",marginBottom:"5px",borderRadius:"10px" */
 .fit {
   width: 400px;
-  height: 150px;
+  height: 140px;
   margin-bottom: 5px;
   border-radius: 10px;
   object-fit: cover;
@@ -148,7 +148,8 @@ img:hover {
 }
 img {
   border-radius: 5px;
-  width: 250px;
+  width: 400px;
+  height: 130px;
   margin-top: 10px;
 }
 .latest_stories {
@@ -251,19 +252,19 @@ table tr td {
 }
 .hollywood {
   width: 400px;
-  height: 150px;
+  height: 140px;
   margin-bottom: 5px;
   border-radius: 10px;
 }
 .fitness {
   width: 400px;
-  height: 150px;
+  height: 140px;
   margin-bottom: 5px;
   border-radius: 10px;
 }
 .tech {
   width: 400px;
-  height: 150px;
+  height: 140px;
   margin-bottom: 5px;
   border-radius: 10px;
 }
@@ -274,7 +275,7 @@ table tr td {
 }
 .holywood1_home_image {
   width: 400px;
-  height: 150px;
+  height: 140px;
   margin-bottom: 5px;
   border-radius: 10px;
 }
@@ -286,17 +287,19 @@ table tr td {
 
 .hft {
   width: 400px;
-  height: 150px;
+  height: 140px;
   margin-bottom: 5px;
   border-radius: 10px;
 }
 
 .fitness_home_image {
   width: 400px;
+  height: 140px;
 }
 
 .tech_home_image {
   width: 400px;
+  height: 140px;
 }
 .Bolywood_latest_article_box_img {
   width: 250px;
@@ -308,7 +311,7 @@ table tr td {
 }
 .tech_img_02 {
   width: 400px;
-  height: 150px;
+  height: 140px;
 }
 .food_the_latestarticle_img {
   width: 250px;
@@ -489,6 +492,7 @@ table tr td {
   }
   .food3 {
     width: 350px;
+    
   }
   p {
     font-size: 22px;

@@ -121,7 +121,7 @@ export function Home() {
         <Thelatest />
         <Thelatestarticle />
         <Thelateststories />
-        <Footer/>
+   
       </store.Provider>
     </>
   );
