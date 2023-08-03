@@ -2,7 +2,10 @@ body {
   font-family: serif;
   cursor: pointer;
 }
-.store_home_link_text,.bolywood_stores_link_text,.Holywood_link_text,.holywood_link_storey_text{
+.store_home_link_text,
+.bolywood_stores_link_text,
+.Holywood_link_text,
+.holywood_link_storey_text {
   text-decoration: none;
   color: black;
 }
@@ -33,7 +36,6 @@ body {
   margin-bottom: 20px;
   /* background-color: #61dafb; */
   /* padding: 15px; */
-
 }
 .logo {
   display: flex;
@@ -56,8 +58,6 @@ body {
   position: absolute;
   top: 30px;
   right: 15px;
-
-  
 }
 .icons {
   display: none;
@@ -65,15 +65,13 @@ body {
 .remove_underline {
   text-decoration: none;
   color: black;
-
-}
-.remove_underline:hover{
-  background-color: #A4D0A4;
-  padding: 10px;
-  transition: 1s;
-  border-radius: 10px;
 }
 
+.active{
+  background-color: #a4d0a4;
+  padding: 4px;
+  border-radius: 5px;
+}
 .home1_image {
   display: flex;
   justify-content: space-between;
@@ -142,10 +140,10 @@ h3 {
   display: inline;
   border-bottom: 3px solid rgb(128, 126, 126);
 }
-img:hover {
+/* img:hover {
   transform: scale(1.1);
   transition: 2s;
-}
+} */
 img {
   border-radius: 5px;
   width: 400px;
@@ -217,7 +215,92 @@ table tr td {
   align-items: center;
   font-size: 22px;
 }
-.backbtn {
+.backbtn_javan {
+  font-size: 22px;
+  padding: 10px 80px;
+  border-radius: 50px;
+  background-color: orange;
+  color: #fdfdfd;
+  font-weight: bold;
+  border: 4px solid #c8c1c1;
+  margin-left: 450px;
+}
+.backbtn_papaya,
+.backbtn_tiktok {
+  font-size: 22px;
+  padding: 10px 80px;
+  border-radius: 50px;
+  background-color: orange;
+  color: #fdfdfd;
+  font-weight: bold;
+  border: 4px solid #c8c1c1;
+  margin-left: 450px;
+}
+.backbtn_papaya {
+  margin-left: 425px;
+}
+.backbtn_bank,
+.backbtn_navey {
+  font-size: 22px;
+  padding: 10px 80px;
+  border-radius: 50px;
+  background-color: orange;
+  color: #fdfdfd;
+  font-weight: bold;
+  border: 4px solid #c8c1c1;
+  margin-left: 150px;
+}
+.backbtn_navey {
+  margin-left: 100px;
+}
+.backbtn_rahul,
+.backbtn_upi,
+.backbtn_virat,
+.backbtn_btn1,
+.backbtn_btn2,
+.backbtn_btn3,
+.backbtn_btn4,
+.backbtn_btn5,
+.backbtn_btn6,
+.backbtn_btn7,
+.backbtn_btn8,
+.backbtn_btn9,
+.backbtn_netflex,
+.backbtn_wwe,
+.backbtn_cnn,
+.backbtn_idol,
+.backbtn_micro,
+.backbtn_Nic,
+.backbtn_kim,
+.backbtn_lily,
+.backbtn_prince,
+.backbtn_mask,
+.backbtn_med,
+.backbtn_smo,
+.backbtn_bone,
+.backbtn_dece,
+.backbtn_mash,
+.backbtn_cli,
+.backbtn_juce,
+.backbtn_papa,
+.backbtn_chat,
+.backbtn_nokia,
+.backbtn_wats,
+.backbtn_iphone,
+.backbtn_micro,
+.backbtn_phone2,
+.backbtn_anand,
+.backbtn_google,
+.backbtn_iq,
+.backbtn_malai,
+.backbtn_phula,
+.backbtn_puri,
+.backbtn_masala,
+.backbtn_pav,
+.backbtn_rog,
+.backbtn_chi,
+.backbtn_gul,
+.backbtn_pako {
   font-size: 22px;
   padding: 10px 80px;
   border-radius: 50px;
@@ -226,11 +309,6 @@ table tr td {
   font-weight: bold;
   border: 4px solid #c8c1c1;
 }
-.backbtn:hover {
-  transition: 1s;
-  color: black;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -347,33 +425,41 @@ table tr td {
 .food_article {
   width: 600px;
 }
- .fitness_home {
+.fitness_home {
   width: 650px;
   height: auto;
-} 
+}
 
-
-.footer{
+.footer {
   background-color: darkgray;
   text-align: center;
   padding: 10px;
-  font-size: 22px; 
-  margin-bottom: 10px;
+  font-size: 22px;
+  /* margin-bottom: 10px; */
 }
-
 
 /* hello  */
 
-.copyright{
+.copyright {
   font-size: 18px;
 }
-.food_latest_stories{
+.food_latest_stories {
   margin-bottom: 50px;
 }
-.latest_article_h3{
+.latest_article_h3 {
   width: 300px;
 }
-
+.remove_underline{
+  text-decoration: none;
+}
+.holy_latest_stories,.fitness_latest_stories,.food_latest_stories2{
+  display: flex;
+  justify-content: space-between;
+}
+.home_latest_stories,.bolywood_latest_stories{
+  display: flex;
+  justify-content: space-between
+}
 @media only screen and (max-width: 600px) {
   .home1_image {
     display: flex;
@@ -411,10 +497,8 @@ table tr td {
     flex-direction: column;
     align-items: center;
     line-height: 1.8;
-
-   
   }
-  
+
   .the_latest {
     display: flex;
     flex-direction: column;
@@ -462,10 +546,10 @@ table tr td {
   .latest_stories {
     margin-top: 0px;
   }
-  img:hover {
+  /* img:hover {
     transform: scale(1.1);
     transition: 2s;
-  }
+  } */
   .logo {
     display: block;
   }
@@ -473,12 +557,12 @@ table tr td {
     justify-content: space-around;
   }
 
-  h1 {
+  /* h1 {
     text-align: center;
-  }
+  } */
   .icon {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
   }
   .icons {
     display: block;
@@ -495,7 +579,6 @@ table tr td {
   }
   .food3 {
     width: 350px;
-    
   }
   p {
     font-size: 22px;
@@ -533,7 +616,7 @@ table tr td {
   .tech_img_02 {
     width: 350px;
   }
-  .food_latest_stories {
+  .food_latest_stories2 {
     /* border: 5px solid red; */
     margin-top: 800px;
   }
@@ -578,7 +661,97 @@ table tr td {
   .tech_latest,
   .tech_article,
   .Food_latest,
-  .food_article,.fitness_home {
+  .food_article,
+  .fitness_home {
     width: 350px;
   }
+  .backbtn_javan,.backbtn_papaya,.backbtn_tiktok,.backbtn_bank ,.backbtn_navey{
+    margin-left: 100px;
+    padding: 5px 60px;
+  }
+  .the_latest_article_child{
+  height: 380px;
+  }
+  .holy_latest_stories{
+    margin-top: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+  }
+  
+  .fitness_latest_stories{
+    margin-top: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+  }
+  .food_latest_stories{
+    margin-top: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+  }
+  .food_latest_stories {
+margin-bottom: 0px;
+  }
+  .home_thelatest,.home_stories,.bolywood_thelatest,.bolywood_thelateststories,.holy_thelatest,.hollywood_stories{
+    text-align: center;
+    position: relative;
+    
+  }
+  .hollywood_stories
+  {
+    top: 280px;
+  }
+  .article_heading{
+    margin-top: 50px;
+  }
+  .bolywood_thelateststories{
+    position: relative;
+    top: 20px;
+  }
+  .latest_stories{
+    margin-top: 100px;
+  }
+ .fitness_thelatest,.fitness_stories{
+  text-align: center;
+ }
+  .fitness_stories{
+   position: relative;
+   top: 680px;
+  }
+  .tech_thelatest{
+    text-align: center;
+
+  }
+
+  .latest_stories{
+    margin-top: 300px;
+  }
+  .latest_stories_tech{
+text-align: center;
+position: relative;
+top: 300px
+  }
+  .food_thelatest{
+    text-align:center;
+  }
+  .food_thelateststories{
+    text-align: center;
+    position: relative;
+    top: 950px;
+  }
+  .home_latest_stories,.bolywood_latest_stories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .food_latest_stories2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 950px;
+   
+  }
+
 }

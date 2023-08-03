@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 
 export function Nav(){
@@ -12,12 +12,12 @@ export function Nav(){
       <>
 
       {show ? <div className="navlink">
-           <span><Link to='/' className="remove_underline">Home</Link> </span>
-          <span><Link to='/bollywood'  className="remove_underline">Bollywood</Link> </span>
-          <span><Link to='/hollywood' className="remove_underline">Hollywood</Link> </span>
-          <span><Link to='/fitness' className="remove_underline">Fitness</Link> </span>
-          <span><Link to='/technology' className="remove_underline">Technology</Link> </span>
-          <span><Link to='/food' className="remove_underline">Food</Link> </span>         
+           <NavLink to='/' className="remove_underline">Home</NavLink> 
+          <NavLink to='/bollywood'  className="remove_underline">Bollywood</NavLink>
+          <NavLink to='/hollywood' className="remove_underline">Hollywood</NavLink> 
+          <NavLink to='/fitness' className="remove_underline">Fitness</NavLink> 
+          <NavLink to='/technology' className="remove_underline">Technology</NavLink> 
+          <NavLink to='/food' className="remove_underline">Food</NavLink>      
         </div>:" "}
          <div className='icons'>
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className='hamicon'>

@@ -21,7 +21,7 @@ export function TikTok(){
             )
           })}
           </div>
-          <button className='backbtn' onClick={()=>{back(-1)}}>Back</button>
+          <button className='backbtn_tiktok' onClick={()=>{back(-1)}}>Back</button>
         </>
     )
 }

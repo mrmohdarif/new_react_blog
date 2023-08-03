@@ -18,7 +18,7 @@ function MicrosoftAi() {
                  <p style={{lineHeight:"1.5"}}>
                     {data.content}
                  </p>
-                 <button className='backbtn' onClick={()=>{back(-1)}}>Back</button>
+                 <button className='backbtn_micro' onClick={()=>{back(-1)}}>Back</button>
             </div>
         )
       })}

@@ -29,7 +29,7 @@ function Gulabjamun() {
                 /> 
                 <p style={{ lineHeight: "1.5" }}>{data.content}</p>
                 <button
-                  className="backbtn"
+                  className="backbtn_gul"
                   onClick={() => {
                     back(-1);
                   }}

@@ -10,7 +10,7 @@ export function FoodThelatest(){
     
     return(
         <>
-         <h1>The Latest</h1>
+         <h1 className="food_thelatest">The Latest</h1>
      
          
           <div className="the_latest">

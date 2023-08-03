@@ -29,7 +29,7 @@ function Priyanka() {
             />
             <p>{data.content}</p>
             <button
-              className="backbtn"
+              className="backbtn_btn5"
               onClick={() => {
                 back(-1);
               }}

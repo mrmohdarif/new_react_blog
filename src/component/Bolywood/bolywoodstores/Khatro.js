@@ -29,7 +29,7 @@ function Khatro() {
                 /> 
                 <p style={{ lineHeight: "1.5" }}>{data.content}</p>
                 <button
-                  className="backbtn"
+                  className="backbtn_btn8"
                   onClick={() => {
                     back(-1);
                   }}

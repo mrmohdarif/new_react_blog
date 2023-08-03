@@ -30,7 +30,7 @@ function Masaladhosa() {
 
               <p style={{ lineHeight: "1.5" }}>{data.content}</p>
               <button
-                className="backbtn"
+                className="backbtn_masala"
                 onClick={() => {
                   back(-1);
                 }}

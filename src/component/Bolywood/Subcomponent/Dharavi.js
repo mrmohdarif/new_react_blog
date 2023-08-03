@@ -17,7 +17,7 @@ function Dharavi() {
                <p>
                   {data.content}
                </p>
-               <button className='backbtn' onClick={()=>{back(-1)}}>Back</button>
+               <button className='backbtn_btn2' onClick={()=>{back(-1)}}>Back</button>
           </div>
       )
     })}

@@ -29,7 +29,7 @@ function Akshay() {
                 /> 
                 <p style={{ lineHeight: "1.5" }}>{data.content}</p>
                 <button
-                  className="backbtn"
+                  className="backbtn_btn7"
                   onClick={() => {
                     back(-1);
                   }}

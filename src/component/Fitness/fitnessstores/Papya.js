@@ -29,7 +29,7 @@ function Papya() {
                 /> 
                 <p style={{ lineHeight: "1.5" }}>{data.content}</p>
                 <button
-                  className="backbtn"
+                  className="backbtn_papa"
                   onClick={() => {
                     back(-1);
                   }}

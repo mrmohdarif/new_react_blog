@@ -10,7 +10,7 @@ export function Thelatest(){
     // console.log(data1);
     return(
         <>
-         <h1>The Latest</h1>
+         <h1 className="home_thelatest">The Latest</h1>
           
          
           <div className="the_latest">

@@ -8,7 +8,7 @@ export function BollywoodThelatest() {
 
   return (
     <>
-      <h1>The Latest</h1>
+      <h1 className="bolywood_thelatest">The Latest</h1>
 
       <div className="the_latest">
         {data23
@@ -29,7 +29,7 @@ export function BollywoodThelatest() {
                   />
                 </Link>
 
-                <h3>{data.title}</h3>
+                <p>{data.title}</p>
                 <p>{data.publishedAt}</p>
               </div>
             );

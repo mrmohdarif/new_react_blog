@@ -29,7 +29,7 @@ function Rahul() {
                 /> 
                 <p style={{ lineHeight: "1.5" }}>{data.text}</p>
                 <button
-                  className="backbtn"
+                  className="backbtn_rahul"
                   onClick={() => {
                     back(-1);
                   }}

@@ -29,7 +29,7 @@ function Pavbhaji() {
 
               <p style={{ lineHeight: "1.5" }}>{data.content}</p>
               <button
-                className="backbtn"
+                className="backbtn_pav"
                 onClick={() => {
                   back(-1);
                 }}

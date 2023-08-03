@@ -29,7 +29,7 @@ function Chicken65() {
                 /> 
                 <p style={{ lineHeight: "1.5" }}>{data.content}</p>
                 <button
-                  className="backbtn"
+                  className="backbtn_chi"
                   onClick={() => {
                     back(-1);
                   }}

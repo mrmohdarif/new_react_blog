@@ -20,7 +20,7 @@ function Manoj() {
                      <p style={{fontSize:"22px"}}>{data.content}</p>
                      <div className="poster">
                     {/* <img src={data.} alt="the_latest_Javan" style={{width:"600px"}} /> */}
-                    <button className='backbtn' onClick={()=>{back(-1)}}>Back</button>
+                    <button className='backbtn_btn1' onClick={()=>{back(-1)}}>Back</button>
                     </div>
                    
                     </div>

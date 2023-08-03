@@ -18,7 +18,7 @@ export function FitnessThelatestarticle(){
                 <div className="latest_article_box" key={d1.id}>
                <Link to={d1.path}> <img src={d1.urlToImage} alt="latest_article" style={{width:"250px",marginTop:"10px"}}/></Link>
                  <div className="latest_article_box_child">
-                    <h3>{d1.title}</h3>
+                    <p>{d1.title}</p>
                     <p>{d1.publishedAt}</p>
                  </div>
             </div>

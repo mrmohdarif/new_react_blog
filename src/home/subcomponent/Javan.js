@@ -72,7 +72,7 @@ export function Javan(){
             })}
             
          </div>
-         <button className='backbtn' onClick={()=>{back(-1)}}>Back</button>
+         <button className='backbtn_javan' onClick={()=>{back(-1)}}>Back</button>
         </div>
     )
 }

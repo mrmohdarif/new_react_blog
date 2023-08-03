@@ -5,10 +5,10 @@ export function FoodThelateststories(){
     const [data19]=useContext(store1)
     console.log("this is data3",data19);
     return(
-        <div className="food_latest_stories">
-          <h1>Latest Stories</h1>
+        <div className="food_latest_stories1">
+          <h1 className="food_thelateststories">Latest Stories</h1>
              
-           <div className="latest_stories">
+           <div className="food_latest_stories2">
            {data19.filter((item)=>item.categorey==="Latest Stories" && item.name==='Food').map((d,index)=>{
                 return(
                     <div className="latest_stories_box">

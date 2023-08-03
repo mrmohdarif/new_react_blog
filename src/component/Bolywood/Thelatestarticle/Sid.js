@@ -30,7 +30,7 @@ function Sid() {
               />
               <p>{data.content}</p>
               <button
-                className="backbtn"
+                className="backbtn_btn6"
                 onClick={() => {
                   back(-1);
                 }}

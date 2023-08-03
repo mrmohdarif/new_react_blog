@@ -10,7 +10,7 @@ export function TechnologyThelatest(){
     
     return(
         <>
-         <h2>The Latest</h2>
+         <h2 className="tech_thelatest">The Latest</h2>
      
          
           <div className="the_latest">
@@ -19,7 +19,7 @@ export function TechnologyThelatest(){
                 
                 <div className="the_latest_image" key={d.id}>
                <Link to={d.path}><img src={d.urlToImage} alt="the_latest" style={{width:'auto', height:"200px",objectFit:"cover"}} className="img" /></Link>
-                <h3 >{d.title}</h3>
+                <p >{d.title}</p>
                 <p>{d.publishedAt}</p>
                 </div>     
             )

@@ -8,8 +8,8 @@ export function Thelateststories(){
     return(
         <div className="stores">
         
-        <h1>Latest Stories</h1>
-           <div className="latest_stories">
+        <h1 className="home_stories">Latest Stories</h1>
+           <div className="home_latest_stories">
            
         
            {data3.filter((item)=>item.categorey==="Latest Stories"  ).map((d,index)=>{

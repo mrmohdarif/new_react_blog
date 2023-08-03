@@ -30,7 +30,7 @@ function Virat() {
                 /> 
                 <p style={{ lineHeight: "1.5" }}>{data.text}</p>
                 <button
-                  className="backbtn"
+                  className="backbtn_virat"
                   onClick={() => {
                     back(-1);
                   }}

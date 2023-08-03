@@ -29,7 +29,7 @@ function Anand() {
                 /> 
                 <p style={{ lineHeight: "1.5" }}>{data.content}</p>
                 <button
-                  className="backbtn"
+                  className="backbtn_anand"
                   onClick={() => {
                     back(-1);
                   }}

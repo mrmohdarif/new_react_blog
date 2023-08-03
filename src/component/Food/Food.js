@@ -4,7 +4,7 @@ import { Nav } from "../../Nav";
 import { FoodThelatest } from "./FoodThelatest";
 import { FoodThelatestarticle } from "./FoodThelatestarticle";
 import { FoodThelateststories } from "./FoodThelateststories";
-import Footer from "../../Footer";
+
 export function Food(){
     return(
         <>

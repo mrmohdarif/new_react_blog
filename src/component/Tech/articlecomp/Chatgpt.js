@@ -29,7 +29,7 @@ function Chatgpt() {
 
               <p style={{ lineHeight: "1.5" }}>{data.content}</p>
               <button
-                className="backbtn"
+                className="backbtn_chat"
                 onClick={() => {
                   back(-1);
                 }}

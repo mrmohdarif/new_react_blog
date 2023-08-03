@@ -29,7 +29,7 @@ function Whatsapp() {
 
               <p style={{ lineHeight: "1.5" }}>{data.content}</p>
               <button
-                className="backbtn"
+                className="backbtn_wats"
                 onClick={() => {
                   back(-1);
                 }}
